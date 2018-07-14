@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//Time = O(nlogn) ~ O(n^2), Space = O(logn) ~ O(n)
 public class QuickSort {
     public int[] quickSort(int[] array){
         if(array == null){

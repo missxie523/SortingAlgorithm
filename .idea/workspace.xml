@@ -31,7 +31,7 @@
       <change afterPath="$PROJECT_DIR$/../MatrixTrace/src/Solution/MatrixTrace.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ReverseArray/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ReverseArray/src/Solution/ReverseI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RainbowSort.java" afterDir="false" />
       <change afterPath="$USER_HOME$/Documents/nba-web/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$USER_HOME$/Documents/nba-web/src/assets/nba-logoman-word-white.svg" afterDir="false" />
       <change afterPath="$USER_HOME$/Documents/nba-web/src/components/CountSlider.js" afterDir="false" />
@@ -85,7 +85,8 @@
       <change beforePath="$PROJECT_DIR$/../SmallWorld/smallworld/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SmallWorld/smallworld/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SmallWorld/smallworld/smallworld.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Documents/Around/dataflow/src/main/java/com/around/PostDumpFlow.java" beforeDir="false" afterPath="$USER_HOME$/Documents/Around/dataflow/src/main/java/com/around/PostDumpFlow.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Documents/SmallWorld/dataflow/.idea/vcs.xml" beforeDir="false" afterPath="$USER_HOME$/Documents/SmallWorld/dataflow/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Documents/SmallWorld/dataflow/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Documents/SmallWorld/dataflow/.idea/workspace.xml" afterDir="false" />
@@ -121,11 +122,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="17">
+              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RainbowSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RainbowSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -148,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/RainbowSort.java" />
       </list>
     </option>
   </component>
@@ -211,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.RainbowSort">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MergeSort" />
       <module name="SortingAlgorithms" />
@@ -219,6 +230,11 @@
     </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuickSort" />
+      <module name="SortingAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="RainbowSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RainbowSort" />
       <module name="SortingAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -272,9 +288,11 @@
       <item itemvalue="Application.SelectionSort" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.RainbowSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RainbowSort" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.SelectionSort" />
@@ -291,12 +309,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531597025743</updated>
-      <workItem from="1531597030761" duration="3868000" />
+      <workItem from="1531597030761" duration="4871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3868000" />
+    <option name="totallyTimeSpent" value="4871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -311,12 +329,12 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32909605" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -360,8 +378,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="17">
+          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RainbowSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
